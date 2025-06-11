@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+enum Action {
+    INIT = 0 ; 
+    BET = 1;
+    COMPLETE = 2 ;
+}
+
+message Player{
+    string name = 1;
+    double wallet = 2 ;
+}
+
+message Init{
+    Player player = 1 ;
+}
