@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "protobufjs": "^7.2.6",
+    "ts-protoc-gen": "^0.15.0"
+  },
+  "devDependencies": {
+    "protobufjs-cli": "^1.1.3"
+  },
+  "scripts": {
+    "echo": "echo \"${npm_config_gameid}\"",
+    "generate-pbjs": "node runPbjs.js",
+    "generate-pbts": "node runPbts.js"
+  }
+}

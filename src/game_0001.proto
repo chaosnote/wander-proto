@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+import "action.proto" ;
+
 enum Action {
     BET = 0 ;
     RAISE = 1 ;
